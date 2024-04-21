@@ -1,7 +1,7 @@
 {
     "name": "givemebun",
-    "description": "A small tool to add bun commands.",
-    "version": "1.0.0",
+    "description": "A small tool to inject bun commands into npmjs.com.",
+    "version": "0.0.1",
     "type": "module",
     "scripts": {
         "dev": "vite",

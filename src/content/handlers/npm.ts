@@ -8,8 +8,6 @@ export default function handleNPM() {
   });
 }
 
-console.log("b");
-
 function patchInstallCommand() {
   const installElement = [...document.querySelectorAll("h3")].filter(
     (e) =>
@@ -51,7 +49,7 @@ function patchCodeBlocks() {
   const blocks = rawBlocks.filter(
     (e) => e.textContent?.includes("npm ") || e.textContent?.includes("npx ")
   );
-  console.log(blocks);
+  //   console.log(blocks);
   createBunBlock(blocks);
 }
 
